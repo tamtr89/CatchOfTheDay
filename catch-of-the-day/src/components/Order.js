@@ -40,7 +40,7 @@ class Order extends Component {
                             <CSSTransition 
                             classNames="count" 
                             key={count} 
-                            timeout={{ enter: 5000, exit: 5000 }}
+                            timeout={{ enter: 250, exit: 250 }}
                             >
                                 <span>{count}</span>    
                             </CSSTransition>
